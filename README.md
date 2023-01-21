@@ -17,6 +17,7 @@ jupyter notebook
 # Purpose of files
 
 Spydercheckr24.py - description of "Spydercheckr24" colour checker.
+
 correction.ipynb - Jupyter notebook for correction photos in JPG_uncorrected using root-polynomial regression (Finlayson 2015).
 
 # References
