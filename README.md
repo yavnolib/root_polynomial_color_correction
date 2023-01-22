@@ -1,6 +1,6 @@
 # Color Correction using root-polynomial regression
 
-This repo performs color correction and texture analysis using [Colour](https://www.colour-science.org/) library. The color correction also uses opencv to automatically find color correction charts embedded in images.
+This repo performs color correction and texture analysis using [colour-science](https://www.colour-science.org/) library. The color correction also uses opencv to automatically find color correction charts embedded in images.
 
 To run the examples the easiest thing to do is to start with a clean virtual environment. After you clone the repo, create the virtual environment and install the requirements.
 
