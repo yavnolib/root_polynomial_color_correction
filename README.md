@@ -1,25 +1,20 @@
 # Color Correction using root-polynomial regression
 
-This repo performs color correction and texture analysis using [colour-science](https://www.colour-science.org/) library. The color correction also uses opencv to automatically find color correction charts embedded in images.
+This repo performs color correction using hyperspectral photos to generate photos in camera color space and photos in XYZ color space. The color correction is performed using the root polynomial expension of image in camera color space. Target values is image in XYZ color space. 
 
-To run the examples the easiest thing to do is to start with a clean virtual environment. After you clone the repo, create the virtual environment and install the requirements.
+Also in the process of execution hyperspectral photographs converted into photos in the space of a standard observer are saved to a folder /gen_img/. For example, /gen_img/xyz-2019-08-27_046-h5.jpeg
+
+
+To run this repo you can use:
 
 ```bash
-python3 -m venv new-venv
-source new-venv/bin/activate
-pip install -r requirements.txt
-```
-then start jupyter and you should be able to run the code in `correction.ipynb`.
-```bash
-jupyter notebook
+git clone https://github.com/yavnolib/root_polynomial_color_correction.git
+jupyter notebook iitp-cc-notebook.ipynb
 ```
 
-# Purpose of files
-
-Spydercheckr24.py - description of "Spydercheckr24" colour checker.
-
-correction.ipynb - Jupyter notebook for correction photos in JPG_uncorrected using root-polynomial regression (Finlayson 2015).
 
 # References
 
-https://ieeexplore.ieee.org/document/7047834
+Hyperspectral photographs are taken from the dataset https://repository.kaust.edu.sa/handle/10754/670368
+
+RPCC algorithm (Finlayson 2015): https://ieeexplore.ieee.org/document/7047834
