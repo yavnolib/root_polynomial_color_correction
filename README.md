@@ -15,6 +15,6 @@ jupyter notebook iitp-cc-notebook.ipynb
 
 # References
 
-Hyperspectral photographs are taken from the dataset https://repository.kaust.edu.sa/handle/10754/670368
+Hyperspectral photographs are taken from the KAUST dataset https://repository.kaust.edu.sa/handle/10754/670368
 
 RPCC algorithm (Finlayson 2015): https://ieeexplore.ieee.org/document/7047834
